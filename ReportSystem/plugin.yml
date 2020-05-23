@@ -1,0 +1,21 @@
+name: ReportSystem
+
+main: smo\ReportSystem\Main
+
+version: 1.1.0
+
+api: 3.11.6
+
+load: POSTWORLD
+
+author: smo
+
+description: ReportSystem
+
+permissions:
+ 
+ report.guest:
+  default: true
+
+ reportlist.op:
+  default: op
